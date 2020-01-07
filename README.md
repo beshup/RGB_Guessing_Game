@@ -1,5 +1,5 @@
 # RGB_Guessing_Game
-Aesthetic RGB guessing game, where players are given a rgb value (ex: rgb(100, 101, 102)) and either 3 colours or 6 colours (depending on chosen mode of diffculty) to choose the matching colour with the rgb value. Built with smooth transitions
+Aesthetic RGB guessing game, where players are given a rgb value (ex: rgb(100, 101, 102)) and either 3 colours or 6 colours (depending on chosen mode of diffculty) to choose the matching colour with the rgb value. Built with smooth transitions.
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/55633921/71877400-0197c380-30f7-11ea-864b-912db4fcb049.png)
 
