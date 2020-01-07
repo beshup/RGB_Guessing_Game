@@ -28,6 +28,7 @@ var easyBtn = document.getElementById("easyBtn");
 var hardBtn = document.getElementById("hardBtn");
 
 easyBtn.addEventListener("click", function(){
+	msgDisplay.textContent = "";
 	easyBtn.classList.add("slctd");
 	hardBtn.classList.remove("slctd");
 	numSq = 3;
@@ -46,10 +47,11 @@ easyBtn.addEventListener("click", function(){
 	}
 
 
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
 })
 
 hardBtn.addEventListener("click", function(){
+	msgDisplay.textContent = "";
 	easyBtn.classList.remove("slctd");
 	hardBtn.classList.add("slctd");
 	numSq = 6;
@@ -64,7 +66,7 @@ hardBtn.addEventListener("click", function(){
 	}
 
 
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
 })
 
 rgbDisplay.textContent = goalColour;
@@ -78,8 +80,9 @@ reset.addEventListener("click", function(){
 		squares[i].style.background = colours[i];
 	}
 
-	h1.style.backgroundColor = "#232323";
+	h1.style.backgroundColor = "steelblue";
 	this.textContent = "New Colours";
+	msgDisplay.textContent = "";
 })
 
 function changeCol(colour){
